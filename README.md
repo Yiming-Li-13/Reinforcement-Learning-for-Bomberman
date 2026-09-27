@@ -149,6 +149,23 @@ The raw `game_state` is compressed into a 36-dimensional vector covering five gr
 * **Local map** — surrounding walls and adjacent crates
 * **Movement** — previous movement direction and loop detection
 
+## Evaluation results
+
+**DQN and LQ vs. Rule-Based Agents**  
+DQN and LQ were evaluated against three rule-based agents over 200 rounds.
+
+<img width="5400" height="3000" alt="1" src="https://github.com/user-attachments/assets/fb8b0545-0c17-4b1b-8635-7234236ccded" />
+
+**Mixed-Agent Matches**  
+DQN, LQ, and two rule-based agents competed together over 200 rounds.
+
+<img width="4800" height="3600" alt="3" src="https://github.com/user-attachments/assets/39a8f3b5-5045-495b-97d9-5769d29d2723" />
+
+**DQN vs. LQ**  
+Two DQN agents and two LQ agents competed against each other over 200 rounds.
+
+<img width="5400" height="3000" alt="2" src="https://github.com/user-attachments/assets/576836e5-0081-4fc0-9fd8-2297126eae73" />
+
 
 ## Authors
 
