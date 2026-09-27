@@ -139,7 +139,7 @@ The raw `game_state` is compressed into a 26-dimensional vector covering four gr
 - **Global state** — step progress, visible coin ratio, surviving enemy ratio
 
 
-### Feature Engineering (Linear Q-learning agent)
+## Feature Engineering (Linear Q-learning agent)
 
 The raw `game_state` is compressed into a 36-dimensional vector covering five groups:
 
